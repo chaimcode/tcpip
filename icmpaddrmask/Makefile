@@ -1,6 +1,6 @@
 # Change the following as required:
 CC	= gcc
-CFLAGS	=
+CFLAGS	= "-std=c90"
 
 # Following line for SVR4, Solaris 2.x
 LIBS	= /usr/ucblib/libucb.a -lsocket -lnsl
