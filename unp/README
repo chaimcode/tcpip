@@ -1,0 +1,4 @@
+gcc 使用静态库的两种方式
+1. gcc daytimetcpcli.c ../lib/libunp.a -o daytimetcpcli
+2. gcc daytimetcpcli.c -L ../lib -lunp -static -o daytimetcpcli
+    1. 此方式在 mac 下不可用, clang 编译器不支持 -static 的参数
